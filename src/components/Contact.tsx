@@ -11,6 +11,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import MessagingLinks from "./MessagingLinks";
 
 const contactInfo = [
   {
@@ -214,6 +215,8 @@ ${form.message}`
                 >
                   <Mail size={22} />
                 </a>
+
+                <MessagingLinks type={1} />
               </div>
             </div>
           </motion.div>

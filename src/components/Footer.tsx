@@ -3,6 +3,7 @@
 
 import { ArrowUp, Heart } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import MessagingLinks from "./MessagingLinks";
 
 export default function Footer() {
   return (
@@ -87,6 +88,7 @@ export default function Footer() {
             >
               <FaLinkedin size={20} />
             </a>
+            <MessagingLinks type={2} />
           </div>
         </div>
 

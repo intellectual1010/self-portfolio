@@ -13,6 +13,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import MessagingLinks from "./MessagingLinks";
 
 export default function Hero() {
   return (
@@ -107,6 +108,8 @@ export default function Hero() {
             >
               <Mail size={23} />
             </a>
+
+            <MessagingLinks type={0} />
           </div>
         </motion.div>
 
