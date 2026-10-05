@@ -30,7 +30,7 @@ const projects: Project[] = [
     category: "Full Stack Development",
     description:
       "A full-stack trip planning application featuring route calculation, driver hours-of-service tracking, automated rest stops, and daily electronic logging.",
-    image: "/projects/eld-planner.png",
+    image: "/projects/eld-planner.jpg",
     technologies: [
       "React",
       "TypeScript",
@@ -80,7 +80,7 @@ const projects: Project[] = [
     category: "Full Stack Development",
     description:
       "Developed and maintained scalable backend APIs and responsive web interfaces for an online trailer marketplace, supporting business workflows and improving application performance.",
-    image: "/projects/trailertrader.png",
+    image: "/projects/trailertrader.jpg",
     technologies: [
       "Laravel",
       "PHP",
@@ -97,7 +97,7 @@ const projects: Project[] = [
     category: "Backend / .NET",
     description:
       "Developed a RESTful project and task management API using ASP.NET Core and Entity Framework Core, featuring JWT authentication, project and task workflows, filtering, validation, and PostgreSQL persistence.",
-    image: "/projects/dotnet-kanban.png",
+    image: "/projects/dotnet-kanban.jpg",
     technologies: [
       "C#",
       ".NET 8",
