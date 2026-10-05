@@ -21,6 +21,7 @@ type Project = {
   features: string[];
   github?: string;
   demo?: string;
+  website?: string;
   featured?: boolean;
 };
 
@@ -46,6 +47,7 @@ const projects: Project[] = [
     // Add your actual public URLs when ready.
     github: "https://github.com/intellectual1010/spotter-eld-trip-planner",
     demo: "https://spotter-eld-trip-planner-nine.vercel.app/",
+    website: "",
     featured: true,
   },
   {
@@ -73,24 +75,8 @@ const projects: Project[] = [
     github:
       "https://github.com/intellectual1010/ai-resume-analyzer",
     demo: "",
+    website: "",
     featured: true,
-  },
-  {
-    title: "TrailerTrader — Online Trailer Marketplace",
-    category: "Full Stack Development",
-    description:
-      "Developed and maintained scalable backend APIs and responsive web interfaces for an online trailer marketplace, supporting business workflows and improving application performance.",
-    image: "/projects/trailertrader.jpg",
-    technologies: [
-      "Laravel",
-      "PHP",
-      "Vue.js",
-      "REST APIs",
-      "MySQL",
-    ],
-    features: [],
-    github: "",
-    demo: "https://trailertrader.com/",
   },
   {
     title: "TaskFlow — Project Management API",
@@ -118,7 +104,50 @@ const projects: Project[] = [
     github:
       "https://github.com/intellectual1010/taskflow",
     demo: "https://taskflow-manny.vercel.app",
+    website: "",
     featured: true,
+  },
+  {
+    title: "TrailerTrader — Online Trailer Marketplace",
+    category: "Full Stack Development",
+    description:
+      "Developed and maintained scalable backend APIs and responsive web interfaces for an online trailer marketplace, supporting business workflows and improving application performance.",
+    image: "/projects/trailertrader.jpg",
+    technologies: [
+      "Laravel",
+      "PHP",
+      "Vue.js",
+      "REST APIs",
+      "MySQL",
+    ],
+    features: [],
+    github: "",
+    demo: "",
+    website: "https://trailertrader.com/",
+  },
+  {
+    title: "Ispolink — Web3 Talent Platform",
+    category: "Frontend Development / Web3",
+    description:
+      "Contributed to the Ispolink platform as a Frontend Developer, building and enhancing responsive user interfaces with React and Next.js while integrating Web3 functionality into the application.",
+    image: "/projects/ispolink.jpg",
+    technologies: [
+      "React",
+      "Next.js",
+      "Web3",
+      "Material UI",
+      "Styled Components",
+    ],
+    features: [
+      "Responsive frontend development",
+      "React and Next.js application development",
+      "Web3 integration",
+      "Reusable UI components",
+      "Frontend performance and usability improvements",
+    ],
+    github: "",
+    demo: "",
+    website: "https://ispolink.com/",
   },
 ];
 
@@ -271,6 +300,18 @@ export default function Projects() {
                     >
                       <FaGithub size={18} />
                       Source Code
+                    </a>
+                  )}
+
+                  {project.website && (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-blue-400 transition hover:text-blue-300"
+                    >
+                      Visit Website
+                      <ArrowUpRight size={18} />
                     </a>
                   )}
 
