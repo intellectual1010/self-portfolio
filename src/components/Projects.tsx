@@ -92,6 +92,34 @@ const projects: Project[] = [
     github: "",
     demo: "https://trailertrader.com/",
   },
+  {
+    title: "TaskFlow — Project Management API",
+    category: "Backend / .NET",
+    description:
+      "Developed a RESTful project and task management API using ASP.NET Core and Entity Framework Core, featuring JWT authentication, project and task workflows, filtering, validation, and PostgreSQL persistence.",
+    image: "/projects/dotnet-kanban.png",
+    technologies: [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "PostgreSQL",
+      "JWT",
+      "Swagger",
+    ],
+    features: [
+      "JWT authentication and authorization",
+      "Project and task CRUD operations",
+      "Task assignment, priority, status, and due dates",
+      "Filtering and search",
+      "Entity Framework Core migrations",
+      "Swagger API documentation",
+    ],
+    github:
+      "https://github.com/intellectual1010/taskflow",
+    demo: "https://taskflow-manny.vercel.app",
+    featured: true,
+  },
 ];
 
 function ProjectImage({
