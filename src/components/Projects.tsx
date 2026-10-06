@@ -108,6 +108,35 @@ const projects: Project[] = [
     featured: true,
   },
   {
+    title: "DevHire — Developer Job & Talent Platform",
+    category: "Full Stack Development / WordPress",
+    description:
+      "Designed and developed a full-featured developer job and talent platform using WordPress with a custom theme and plugin architecture, supporting candidate and employer workflows from job discovery through hiring.",
+    image: "/projects/devhire.jpg",
+    technologies: [
+      "WordPress",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "REST API",
+      "Docker",
+      "CSS",
+    ],
+    features: [
+      "Candidate and employer portals",
+      "Job posting, search, and filtering",
+      "Job application and hiring workflow",
+      "Candidate profiles and resume uploads",
+      "Saved jobs functionality",
+      "Company profiles and job management",
+      "Custom WordPress REST API",
+      "Custom WordPress theme and plugin development",
+    ],
+    github: "https://github.com/intellectual1010/devhire",
+    demo: "https://devhire-demo.ifree.page/",
+    website: "",
+  },
+  {
     title: "TrailerTrader — Online Trailer Marketplace",
     category: "Full Stack Development",
     description:
