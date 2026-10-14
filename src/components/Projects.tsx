@@ -27,28 +27,38 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "ELD Trip Planner",
-    category: "Full Stack Development",
+    title: "Weather-Aware Route Planner",
+    category: "Full Stack / Logistics & Weather Analytics",
     description:
-      "A full-stack trip planning application featuring route calculation, driver hours-of-service tracking, automated rest stops, and daily electronic logging.",
-    image: "/projects/eld-planner.jpg",
+      "Developed a full-stack weather-aware route planning application that analyzes multiple driving routes using forecasted weather conditions, estimated arrival times, and cargo weight. Implemented intelligent route recommendations, interactive maps, weather risk visualization, and optimized API performance through geographic sampling and caching.",
+    image: "/projects/weather-routing.png",
     technologies: [
       "React",
       "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Python",
       "Django",
-      "REST API",
-      "OSRM",
+      "Django REST Framework",
+      "Mapbox API",
+      "WeatherAPI",
+      "React Leaflet",
+      "Redis",
+      "Axios",
+      "Vercel",
+      "Render",
     ],
     features: [
-      "Route calculation",
-      "Driver HOS tracking",
-      "Daily ELD logs",
+      "Multiple route comparisons",
+      "AI-style safety recommendations",
+      "Real-time weather risk analysis",
+      "Interactive maps and checkpoints",
+      "48-hour weather heatmap",
+      "Cargo-weight-based risk scoring",
+      "Optimized API performance",
     ],
-    // Add your actual public URLs when ready.
-    github: "https://github.com/intellectual1010/spotter-eld-trip-planner",
-    demo: "https://spotter-eld-trip-planner-nine.vercel.app/",
-    website: "",
-    featured: true,
+    demo: "https://weather-routing-omega.vercel.app/",
+    github: "https://github.com/intellectual1010/weather-routing",
   },
   {
     title: "AI Resume Analyzer",
@@ -135,6 +145,30 @@ const projects: Project[] = [
     github: "https://github.com/intellectual1010/devhire",
     demo: "https://devhire-demo.ifree.page/",
     website: "",
+  },
+  {
+    title: "ELD Trip Planner",
+    category: "Full Stack Development",
+    description:
+      "A full-stack trip planning application featuring route calculation, driver hours-of-service tracking, automated rest stops, and daily electronic logging.",
+    image: "/projects/eld-planner.jpg",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Django",
+      "REST API",
+      "OSRM",
+    ],
+    features: [
+      "Route calculation",
+      "Driver HOS tracking",
+      "Daily ELD logs",
+    ],
+    // Add your actual public URLs when ready.
+    github: "https://github.com/intellectual1010/spotter-eld-trip-planner",
+    demo: "https://spotter-eld-trip-planner-nine.vercel.app/",
+    website: "",
+    featured: true,
   },
   {
     title: "TrailerTrader — Online Trailer Marketplace",
